@@ -22,6 +22,9 @@
 		25DF255D23453D52006740F3 /* GetRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF255C23453D52006740F3 /* GetRequestBuilderTests.swift */; };
 		25DF255F23453F01006740F3 /* PostRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF255E23453F01006740F3 /* PostRequestBuilderTests.swift */; };
 		25DF2565234540FB006740F3 /* SessionManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF2564234540FB006740F3 /* SessionManagerType.swift */; };
+		25DF256923454879006740F3 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF256823454879006740F3 /* NetworkReachability.swift */; };
+		25DF256B23454D8C006740F3 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF256A23454D8C006740F3 /* GlobalVariables.swift */; };
+		25DF256D23454DA8006740F3 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF256C23454DA8006740F3 /* Observable.swift */; };
 		53E10497A52E354036F423CA /* Pods_NYTimesArticles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DE0FC4433092EC84509007 /* Pods_NYTimesArticles.framework */; };
 		AEF175D9218E41157BA0668C /* Pods_NYTimesArticlesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82F073EA379F6A5BA82A5DD /* Pods_NYTimesArticlesTests.framework */; };
 		DCD6AC93DB33676DBAE6399F /* Pods_NYTimesArticlesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEA3FC2622D29826D41EE41 /* Pods_NYTimesArticlesUITests.framework */; };
@@ -69,6 +72,9 @@
 		25DF255C23453D52006740F3 /* GetRequestBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRequestBuilderTests.swift; sourceTree = "<group>"; };
 		25DF255E23453F01006740F3 /* PostRequestBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequestBuilderTests.swift; sourceTree = "<group>"; };
 		25DF2564234540FB006740F3 /* SessionManagerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManagerType.swift; sourceTree = "<group>"; };
+		25DF256823454879006740F3 /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		25DF256A23454D8C006740F3 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		25DF256C23454DA8006740F3 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		33DE0FC4433092EC84509007 /* Pods_NYTimesArticles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTimesArticles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4486D40DF6888E12058D7C79 /* Pods-NYTimesArticlesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesArticlesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYTimesArticlesUITests/Pods-NYTimesArticlesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4FEA3FC2622D29826D41EE41 /* Pods_NYTimesArticlesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTimesArticlesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,7 +184,10 @@
 		25DF254D23453561006740F3 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				25DF256723454846006740F3 /* Reachability */,
 				25DF254E234536FD006740F3 /* Networkng */,
+				25DF256A23454D8C006740F3 /* GlobalVariables.swift */,
+				25DF256C23454DA8006740F3 /* Observable.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -220,6 +229,14 @@
 			children = (
 			);
 			path = Facade;
+			sourceTree = "<group>";
+		};
+		25DF256723454846006740F3 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				25DF256823454879006740F3 /* NetworkReachability.swift */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 		8F8690287A6778C1EA7A6203 /* Pods */ = {
@@ -475,11 +492,14 @@
 				25DF2565234540FB006740F3 /* SessionManagerType.swift in Sources */,
 				25DF255223453829006740F3 /* Fetchable.swift in Sources */,
 				258E1C9623452FE100907D5F /* ViewController.swift in Sources */,
+				25DF256D23454DA8006740F3 /* Observable.swift in Sources */,
 				25DF255623453A0E006740F3 /* Resultable.swift in Sources */,
 				25DF255A23453C0E006740F3 /* Errors.swift in Sources */,
+				25DF256B23454D8C006740F3 /* GlobalVariables.swift in Sources */,
 				25DF255023453725006740F3 /* Logger.swift in Sources */,
 				258E1C9423452FE100907D5F /* AppDelegate.swift in Sources */,
 				25DF2554234538DB006740F3 /* Engine.swift in Sources */,
+				25DF256923454879006740F3 /* NetworkReachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

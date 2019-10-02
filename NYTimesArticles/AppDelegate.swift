@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        setupReachability()
         return true
     }
 
@@ -40,7 +41,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
 
+
+// MARK: - Reachability
+fileprivate extension AppDelegate {
+    
+    func setupReachability() {
+        
+        NetworkReachability.shared.delegate = self
+        NetworkReachability.shared.startObservingReachability()
+    }
+}
+
+extension AppDelegate: NetworkAvailableDelegate {
+    
+    func onNetworkChange(_ isConnected: Bool) {
+        isNetworkReachable.value = isConnected
+    }
+}
