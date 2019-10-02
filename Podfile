@@ -2,19 +2,16 @@
 # platform :ios, '9.0'
 
 target 'NYTimesArticles' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for NYTimesArticles
-
-  target 'NYTimesArticlesTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'NYTimesArticlesUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
+    use_frameworks!
+    
+    pod 'Alamofire'
+    
+    target 'NYTimesArticlesTests' do
+        inherit! :search_paths
+    end
+    
+    target 'NYTimesArticlesUITests' do
+        inherit! :search_paths
+    end
+    
 end

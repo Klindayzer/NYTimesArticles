@@ -114,11 +114,11 @@
 		258E1C9223452FE100907D5F /* NYTimesArticles */ = {
 			isa = PBXGroup;
 			children = (
+				25DF254C23453528006740F3 /* Storyboards */,
+				25DF254B2345350B006740F3 /* Controllers */,
+				25DF254D23453561006740F3 /* Utility */,
 				258E1C9323452FE100907D5F /* AppDelegate.swift */,
-				258E1C9523452FE100907D5F /* ViewController.swift */,
-				258E1C9723452FE100907D5F /* Main.storyboard */,
 				258E1C9A23452FE200907D5F /* Assets.xcassets */,
-				258E1C9C23452FE200907D5F /* LaunchScreen.storyboard */,
 				258E1C9F23452FE200907D5F /* Info.plist */,
 			);
 			path = NYTimesArticles;
@@ -140,6 +140,30 @@
 				258E1CB523452FE200907D5F /* Info.plist */,
 			);
 			path = NYTimesArticlesUITests;
+			sourceTree = "<group>";
+		};
+		25DF254B2345350B006740F3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				258E1C9523452FE100907D5F /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		25DF254C23453528006740F3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				258E1C9C23452FE200907D5F /* LaunchScreen.storyboard */,
+				258E1C9723452FE100907D5F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		25DF254D23453561006740F3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		8F8690287A6778C1EA7A6203 /* Pods */ = {
@@ -176,6 +200,7 @@
 				258E1C8C23452FE100907D5F /* Sources */,
 				258E1C8D23452FE100907D5F /* Frameworks */,
 				258E1C8E23452FE100907D5F /* Resources */,
+				81A1F74BB445ADE66AEBB85A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -337,6 +362,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81A1F74BB445ADE66AEBB85A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NYTimesArticles/Pods-NYTimesArticles-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYTimesArticles/Pods-NYTimesArticles-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8642F8D443A9DBE87A68F42F /* [CP] Check Pods Manifest.lock */ = {
