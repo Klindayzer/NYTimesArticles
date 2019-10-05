@@ -8,20 +8,87 @@
 
 import UIKit
 
-// MARK: - Definitions -
+// MARK: - ArticleModel
+struct ArticleModel: Codable {
+    
+    let status: String?
+    let copyright: String?
+    let numResults: Int
+    let errors: [String]?
+    let results: [Result]?
+    
+    enum CodingKeys: String, CodingKey {
+        
+        case status, copyright, errors, results
+        case numResults = "num_results"
+    }
+}
 
-// MARK: - Type -
+// MARK: - Result
+struct Result: Codable {
+    
+    let id: Int
+    let assetID: Int
+    let views: Int
+    let url: String?
+    let adxKeywords: String?
+    let column: String?
+    let section: String?
+    let byline: String?
+    let type: String?
+    let title: String?
+    let abstract: String?
+    let publishedDate: String?
+    let source: String?
+    let perFacet: String?
+    let desFacet: [String]?
+    let orgFacet: [String]?
+    let geoFacet: [String]?
+    let uri: String?
+    let media: [Media]?
+    
+    enum CodingKeys: String, CodingKey {
+        
+        case url, column, section, byline, type, title, abstract, source, id, views, media, uri
+        case adxKeywords = "adx_keywords"
+        case publishedDate = "published_date"
+        case assetID = "asset_id"
+        case desFacet = "des_facet"
+        case orgFacet = "org_facet"
+        case perFacet = "per_facet"
+        case geoFacet = "geo_facet"
+    }
+}
 
-struct ArticleModel {
+// MARK: - Media
+struct Media: Codable {
+    
+    let type: String?
+    let subtype: String?
+    let caption: String?
+    let copyright: String?
+    let approvedForSyndication: Int
+    let mediaMetadata: [MediaMetadata]?
+    
+    enum CodingKeys: String, CodingKey {
+        
+        case type, subtype, caption, copyright
+        case approvedForSyndication = "approved_for_syndication"
+        case mediaMetadata = "media-metadata"
+    }
+}
 
-// MARK: - Properties
+// MARK: - MediaMetadata
+struct MediaMetadata: Codable {
+    
+    let url: String?
+    let format: Format?
+    let height, width: Int
+}
 
-// MARK: - Constructors
-
-// MARK: - Protected Methods
-
-// MARK: - Exposed Methods
-
-// MARK: - Overridden Methods
-
+enum Format: String, Codable {
+    
+    case mediumThreeByTwo210 = "mediumThreeByTwo210"
+    case mediumThreeByTwo440 = "mediumThreeByTwo440"
+    case standardThumbnail = "Standard Thumbnail"
 }
