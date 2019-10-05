@@ -41,14 +41,6 @@ public struct NetworkEngine: Logger, Fetchable {
         }
     }
     
-    func invalidateAndCancelTasks() {
-        manager.session.invalidateAndCancel()
-    }
-    
-    func finishTasksAndInvalidate() {
-        manager.session.finishTasksAndInvalidate()
-    }
-    
     
     // MARK: - Protected Methods
     fileprivate func fetch<T: Resultable>(_ request: URLRequest, completion: @escaping (ServiceResult<T>) -> Void) {
