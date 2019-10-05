@@ -10,7 +10,7 @@ struct ArticlesViewModel {
     
     // MARK: - Protected Properties
     fileprivate let networkAdaptor: NetworkAdaptor
-    
+    var selectedIndex = 0
     
     // MARK: - Properties
     var articles = Observable([Article]())

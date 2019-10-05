@@ -15,7 +15,7 @@ class ArticlesListViewController: BaseController {
     
     
     // MARK: - Properties
-    fileprivate let viewModel = ArticlesViewModel()
+    fileprivate var viewModel = ArticlesViewModel()
     fileprivate let articlesDetailsSegue = "showDetailsController"
     
     
@@ -28,6 +28,11 @@ class ArticlesListViewController: BaseController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
+        if segue.identifier == articlesDetailsSegue,
+            let controller = segue.destination as? ArticleDetailsViewController {
+            
+            controller.configure(with: viewModel.article(at: viewModel.selectedIndex))
+        }
     }
     
     
@@ -76,6 +81,7 @@ extension ArticlesListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         tableView.deselectRow(at: indexPath, animated: true)
+        viewModel.selectedIndex = indexPath.row
         performSegue(withIdentifier: articlesDetailsSegue, sender: nil)
     }
 }
