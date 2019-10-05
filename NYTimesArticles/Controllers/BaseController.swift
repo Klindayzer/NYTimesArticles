@@ -27,7 +27,7 @@ class BaseController: UIViewController, AlertPresentable {
     // MARK: - Protected Methods
     fileprivate func startObservingNetworkReachability() {
         
-        isNetworkReachable.bind { [weak self] isConnected in
+        isNetworkReachable.skipFirstAndBind { [weak self] isConnected in
             isConnected ? self?.hideReachabilityAlert() : self?.showReachabilityAlert()
         }
     }
