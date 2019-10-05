@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		258E1C9423452FE100907D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258E1C9323452FE100907D5F /* AppDelegate.swift */; };
-		258E1C9623452FE100907D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258E1C9523452FE100907D5F /* ViewController.swift */; };
+		258E1C9623452FE100907D5F /* ArticlesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258E1C9523452FE100907D5F /* ArticlesListViewController.swift */; };
 		258E1C9923452FE100907D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258E1C9723452FE100907D5F /* Main.storyboard */; };
 		258E1C9B23452FE200907D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258E1C9A23452FE200907D5F /* Assets.xcassets */; };
 		258E1C9E23452FE200907D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258E1C9C23452FE200907D5F /* LaunchScreen.storyboard */; };
@@ -33,6 +33,9 @@
 		25DF258D2348D578006740F3 /* NYResultable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF258C2348D578006740F3 /* NYResultable.swift */; };
 		25DF258F2348D859006740F3 /* Buildable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF258E2348D859006740F3 /* Buildable+Extension.swift */; };
 		25DF25912348D8D0006740F3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF25902348D8D0006740F3 /* NetworkManager.swift */; };
+		25DF25982348DED3006740F3 /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF25972348DED3006740F3 /* ArticlesViewModel.swift */; };
+		25DF259A2348DF21006740F3 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF25992348DF21006740F3 /* ArticleModel.swift */; };
+		25DF259C2348DF46006740F3 /* MostPopularArticlesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF259B2348DF46006740F3 /* MostPopularArticlesService.swift */; };
 		53E10497A52E354036F423CA /* Pods_NYTimesArticles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DE0FC4433092EC84509007 /* Pods_NYTimesArticles.framework */; };
 		AEF175D9218E41157BA0668C /* Pods_NYTimesArticlesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82F073EA379F6A5BA82A5DD /* Pods_NYTimesArticlesTests.framework */; };
 		DCD6AC93DB33676DBAE6399F /* Pods_NYTimesArticlesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEA3FC2622D29826D41EE41 /* Pods_NYTimesArticlesUITests.framework */; };
@@ -61,7 +64,7 @@
 		22420AB5C2B745169D7D6D17 /* Pods-NYTimesArticles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesArticles.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYTimesArticles/Pods-NYTimesArticles.release.xcconfig"; sourceTree = "<group>"; };
 		258E1C9023452FE100907D5F /* NYTimesArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimesArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		258E1C9323452FE100907D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		258E1C9523452FE100907D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		258E1C9523452FE100907D5F /* ArticlesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListViewController.swift; sourceTree = "<group>"; };
 		258E1C9823452FE100907D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		258E1C9A23452FE200907D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		258E1C9D23452FE200907D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,6 +95,9 @@
 		25DF258C2348D578006740F3 /* NYResultable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYResultable.swift; sourceTree = "<group>"; };
 		25DF258E2348D859006740F3 /* Buildable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Buildable+Extension.swift"; sourceTree = "<group>"; };
 		25DF25902348D8D0006740F3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		25DF25972348DED3006740F3 /* ArticlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
+		25DF25992348DF21006740F3 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		25DF259B2348DF46006740F3 /* MostPopularArticlesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopularArticlesService.swift; sourceTree = "<group>"; };
 		33DE0FC4433092EC84509007 /* Pods_NYTimesArticles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTimesArticles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4486D40DF6888E12058D7C79 /* Pods-NYTimesArticlesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesArticlesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYTimesArticlesUITests/Pods-NYTimesArticlesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4FEA3FC2622D29826D41EE41 /* Pods_NYTimesArticlesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTimesArticlesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,8 +191,8 @@
 		25DF254B2345350B006740F3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				25DF25922348DE17006740F3 /* Articles List */,
 				25DF256E23454FE2006740F3 /* BaseController.swift */,
-				258E1C9523452FE100907D5F /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -262,6 +268,49 @@
 				25DF25902348D8D0006740F3 /* NetworkManager.swift */,
 			);
 			path = Facade;
+			sourceTree = "<group>";
+		};
+		25DF25922348DE17006740F3 /* Articles List */ = {
+			isa = PBXGroup;
+			children = (
+				25DF25932348DE90006740F3 /* View */,
+				25DF25952348DEA2006740F3 /* View Model */,
+				25DF25942348DE99006740F3 /* Model */,
+				25DF25962348DEAA006740F3 /* Service */,
+			);
+			path = "Articles List";
+			sourceTree = "<group>";
+		};
+		25DF25932348DE90006740F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				258E1C9523452FE100907D5F /* ArticlesListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25DF25942348DE99006740F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25DF25992348DF21006740F3 /* ArticleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25DF25952348DEA2006740F3 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				25DF25972348DED3006740F3 /* ArticlesViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		25DF25962348DEAA006740F3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				25DF259B2348DF46006740F3 /* MostPopularArticlesService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		8F8690287A6778C1EA7A6203 /* Pods */ = {
@@ -515,12 +564,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				25DF25912348D8D0006740F3 /* NetworkManager.swift in Sources */,
+				25DF25982348DED3006740F3 /* ArticlesViewModel.swift in Sources */,
 				25DF255823453ADE006740F3 /* Buildable.swift in Sources */,
 				25DF258B2348D0D7006740F3 /* APIErrors.swift in Sources */,
 				25DF2565234540FB006740F3 /* SessionManagerType.swift in Sources */,
 				25DF255223453829006740F3 /* Fetchable.swift in Sources */,
+				25DF259C2348DF46006740F3 /* MostPopularArticlesService.swift in Sources */,
 				25DF256F23454FE2006740F3 /* BaseController.swift in Sources */,
-				258E1C9623452FE100907D5F /* ViewController.swift in Sources */,
+				258E1C9623452FE100907D5F /* ArticlesListViewController.swift in Sources */,
 				25DF256D23454DA8006740F3 /* Observable.swift in Sources */,
 				25DF255623453A0E006740F3 /* Resultable.swift in Sources */,
 				25DF2573234603DE006740F3 /* Localizable.swift in Sources */,
@@ -532,6 +583,7 @@
 				25DF2554234538DB006740F3 /* Engine.swift in Sources */,
 				25DF257123455244006740F3 /* AlertPresentable.swift in Sources */,
 				25DF258F2348D859006740F3 /* Buildable+Extension.swift in Sources */,
+				25DF259A2348DF21006740F3 /* ArticleModel.swift in Sources */,
 				25DF256923454879006740F3 /* NetworkReachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ArticlesListViewController.swift
 //  NYTimesArticles
 //
 //  Created by Adham Alkhateeb on 10/2/19.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: BaseController {
+class ArticlesListViewController: BaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
 }
 
