@@ -8,20 +8,43 @@
 
 import UIKit
 
-// MARK: - Definitions -
+enum Page: String {
+    
+    case one = "1"
+    case seven = "7"
+    case thirty = "30"
+    
+    var value: String {
+        return "\(rawValue).json"
+    }
+}
 
-// MARK: - Type -
+struct MostPopularArticlesService: Buildable {
 
-struct MostPopularArticlesService {
-
-// MARK: - Properties
-
-// MARK: - Constructors
-
-// MARK: - Protected Methods
-
-// MARK: - Exposed Methods
-
-// MARK: - Overridden Methods
-
+    let page: Page
+    let environment: Environment
+    
+    init(page: Page, environment: Environment = Environment.shared) {
+        self.page = page
+        self.environment = environment
+    }
+    
+    var baseUrl: String? {
+        return environment.configuration(PlistKey.URL.base) as? String
+    }
+    
+    var endPoint: String {
+        return ["svc", "mostpopular", "v2", "viewed", page.value].joined(separator: "/")
+    }
+    
+    var params: Params? {
+        return ["api-key": environment.configuration(PlistKey.Tokens.mostPopular) as? String ?? ""]
+    }
+    
+    var url: URL? {
+        
+        guard let baseUrl = self.baseUrl else { return nil }
+        let urlString = [baseUrl, endPoint].joined(separator: "/")
+        return URL(string: urlString)
+    }
 }
