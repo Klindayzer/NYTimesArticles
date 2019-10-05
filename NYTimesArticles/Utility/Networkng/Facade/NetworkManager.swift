@@ -25,7 +25,7 @@ struct NetworkManager: NetworkAdaptor {
     
     // MARK: - Constructors
     init(type: SessionManagerType = .default) {
-        engine = NetworkEngine(manager: type.sessionManager, enableLog: true)//AppEnvironments.shared.selected.isDebug)
+        engine = NetworkEngine(manager: type.sessionManager, enableLog: isDebug)
     }
     
     
