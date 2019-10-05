@@ -46,6 +46,11 @@
 		25DF25B123493A07006740F3 /* MockResponseNetworkAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF25B023493A07006740F3 /* MockResponseNetworkAdaptor.swift */; };
 		25DF25B323493ABA006740F3 /* JSONUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF25B223493ABA006740F3 /* JSONUtility.swift */; };
 		25DF25B823493E93006740F3 /* mock_most_popular_articles.json in Resources */ = {isa = PBXBuildFile; fileRef = 25DF25B723493E93006740F3 /* mock_most_popular_articles.json */; };
+		25DF25BB234950E3006740F3 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF25BA234950E3006740F3 /* ArticleCell.swift */; };
+		25DF25BD234954A5006740F3 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF25BC234954A5006740F3 /* UIImageView+Extension.swift */; };
+		25DF25C0234959BA006740F3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF25BF234959BA006740F3 /* UIView+Extension.swift */; };
+		25DF25C223495BB5006740F3 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF25C123495BB5006740F3 /* Collection+Extension.swift */; };
+		25DF25C423495C37006740F3 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF25C323495C37006740F3 /* Loader.swift */; };
 		53E10497A52E354036F423CA /* Pods_NYTimesArticles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DE0FC4433092EC84509007 /* Pods_NYTimesArticles.framework */; };
 		AEF175D9218E41157BA0668C /* Pods_NYTimesArticlesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82F073EA379F6A5BA82A5DD /* Pods_NYTimesArticlesTests.framework */; };
 		DCD6AC93DB33676DBAE6399F /* Pods_NYTimesArticlesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEA3FC2622D29826D41EE41 /* Pods_NYTimesArticlesUITests.framework */; };
@@ -118,6 +123,11 @@
 		25DF25B023493A07006740F3 /* MockResponseNetworkAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockResponseNetworkAdaptor.swift; sourceTree = "<group>"; };
 		25DF25B223493ABA006740F3 /* JSONUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUtility.swift; sourceTree = "<group>"; };
 		25DF25B723493E93006740F3 /* mock_most_popular_articles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock_most_popular_articles.json; sourceTree = "<group>"; };
+		25DF25BA234950E3006740F3 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		25DF25BC234954A5006740F3 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		25DF25BF234959BA006740F3 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		25DF25C123495BB5006740F3 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		25DF25C323495C37006740F3 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		33DE0FC4433092EC84509007 /* Pods_NYTimesArticles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTimesArticles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4486D40DF6888E12058D7C79 /* Pods-NYTimesArticlesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesArticlesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYTimesArticlesUITests/Pods-NYTimesArticlesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4FEA3FC2622D29826D41EE41 /* Pods_NYTimesArticlesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTimesArticlesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -236,10 +246,12 @@
 				25DF259D2348E655006740F3 /* Environment */,
 				25DF256723454846006740F3 /* Reachability */,
 				25DF254E234536FD006740F3 /* Networkng */,
+				25DF25BE234954AA006740F3 /* Extensions */,
 				25DF256A23454D8C006740F3 /* GlobalVariables.swift */,
 				25DF256C23454DA8006740F3 /* Observable.swift */,
 				25DF257023455244006740F3 /* AlertPresentable.swift */,
 				25DF2572234603DE006740F3 /* Localizable.swift */,
+				25DF25C323495C37006740F3 /* Loader.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -298,7 +310,8 @@
 		25DF25922348DE17006740F3 /* Articles List */ = {
 			isa = PBXGroup;
 			children = (
-				25DF25932348DE90006740F3 /* View */,
+				25DF25B92349509F006740F3 /* View Controller */,
+				25DF25932348DE90006740F3 /* Views */,
 				25DF25952348DEA2006740F3 /* View Model */,
 				25DF25942348DE99006740F3 /* Model */,
 				25DF25962348DEAA006740F3 /* Service */,
@@ -306,12 +319,12 @@
 			path = "Articles List";
 			sourceTree = "<group>";
 		};
-		25DF25932348DE90006740F3 /* View */ = {
+		25DF25932348DE90006740F3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				258E1C9523452FE100907D5F /* ArticlesListViewController.swift */,
+				25DF25BA234950E3006740F3 /* ArticleCell.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		25DF25942348DE99006740F3 /* Model */ = {
@@ -389,6 +402,24 @@
 				25DF25B723493E93006740F3 /* mock_most_popular_articles.json */,
 			);
 			path = "Mock Files";
+			sourceTree = "<group>";
+		};
+		25DF25B92349509F006740F3 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				258E1C9523452FE100907D5F /* ArticlesListViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		25DF25BE234954AA006740F3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				25DF25BC234954A5006740F3 /* UIImageView+Extension.swift */,
+				25DF25BF234959BA006740F3 /* UIView+Extension.swift */,
+				25DF25C123495BB5006740F3 /* Collection+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		8F8690287A6778C1EA7A6203 /* Pods */ = {
@@ -603,12 +634,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NYTimesArticles/Pods-NYTimesArticles-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -645,18 +680,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				25DF25912348D8D0006740F3 /* NetworkManager.swift in Sources */,
+				25DF25C223495BB5006740F3 /* Collection+Extension.swift in Sources */,
 				25DF25982348DED3006740F3 /* ArticlesViewModel.swift in Sources */,
+				25DF25BD234954A5006740F3 /* UIImageView+Extension.swift in Sources */,
 				25DF255823453ADE006740F3 /* Buildable.swift in Sources */,
 				25DF258B2348D0D7006740F3 /* APIErrors.swift in Sources */,
 				25DF2565234540FB006740F3 /* SessionManagerType.swift in Sources */,
 				25DF255223453829006740F3 /* Fetchable.swift in Sources */,
+				25DF25C423495C37006740F3 /* Loader.swift in Sources */,
 				25DF25A12348EC1D006740F3 /* PlistKey.swift in Sources */,
 				25DF259C2348DF46006740F3 /* MostPopularArticlesService.swift in Sources */,
 				25DF256F23454FE2006740F3 /* BaseController.swift in Sources */,
 				258E1C9623452FE100907D5F /* ArticlesListViewController.swift in Sources */,
 				25DF256D23454DA8006740F3 /* Observable.swift in Sources */,
+				25DF25C0234959BA006740F3 /* UIView+Extension.swift in Sources */,
 				25DF255623453A0E006740F3 /* Resultable.swift in Sources */,
 				25DF2573234603DE006740F3 /* Localizable.swift in Sources */,
+				25DF25BB234950E3006740F3 /* ArticleCell.swift in Sources */,
 				25DF255A23453C0E006740F3 /* Errors.swift in Sources */,
 				25DF259F2348E6B5006740F3 /* Environment.swift in Sources */,
 				25DF258D2348D578006740F3 /* NYResultable.swift in Sources */,
@@ -870,7 +910,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -891,7 +931,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

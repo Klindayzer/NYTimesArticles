@@ -49,4 +49,8 @@ struct ArticlesViewModel {
             }
         }
     }
+    
+    func article(at index: Int) -> Article? {        
+        return articles.value[safe: index]
+    }
 }

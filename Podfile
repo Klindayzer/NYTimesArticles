@@ -5,6 +5,8 @@ target 'NYTimesArticles' do
     use_frameworks!
     
     pod 'Alamofire'
+    pod 'SDWebImage'
+    pod 'MBProgressHUD'
     
     target 'NYTimesArticlesTests' do
         inherit! :search_paths

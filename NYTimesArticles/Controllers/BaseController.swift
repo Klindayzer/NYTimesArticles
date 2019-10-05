@@ -42,4 +42,14 @@ class BaseController: UIViewController, AlertPresentable {
     fileprivate func hideReachabilityAlert() {
         hideAlert()
     }
+    
+    
+    // MARK: - Exposed Methods
+    func startLoading() {
+        Loader.show(in: view)
+    }
+    
+    func stopLoading() {
+        Loader.hide(from: view)
+    }
 }

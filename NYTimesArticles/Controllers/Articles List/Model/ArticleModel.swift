@@ -59,6 +59,24 @@ struct Article: Codable {
         case perFacet = "per_facet"
         case geoFacet = "geo_facet"
     }
+    
+    var thumbnail: String {
+        
+        guard let media = media?.first(where: { $0.type == "image" }) else {
+            return ""
+        }
+        let sortedMedia = media.mediaMetadata?.sorted(by: { $0.width < $1.width})
+        return sortedMedia?.first?.url ?? ""
+    }
+    
+    var largImage: String {
+        
+        guard let media = media?.first(where: { $0.type == "image" }) else {
+            return ""
+        }
+        let sortedMedia = media.mediaMetadata?.sorted(by: { $0.width > $1.width})
+        return sortedMedia?.first?.url ?? ""
+    }
 }
 
 // MARK: - Media
