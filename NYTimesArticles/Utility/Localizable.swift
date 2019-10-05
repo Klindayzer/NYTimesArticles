@@ -21,6 +21,6 @@ extension Localizable where RawValue == String {
 fileprivate extension String {
     
     var localized: String {
-        return NSLocalizedString(self, comment: "")
+        return NSLocalizedString(self, comment: "")                
     }
 }

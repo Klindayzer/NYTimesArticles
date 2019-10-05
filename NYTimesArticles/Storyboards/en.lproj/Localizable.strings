@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  NYTimesArticles
+
+  Created by Adham Alkhateeb on 10/5/19.
+  Copyright © 2019 Adham Alkhateeb. All rights reserved.
+*/
+
+"no_internet_alert_title" = "No Internet Connection";
+"no_internet_alert_message" = "Please connect to internnet and try again";
+"ok" = "Ok";
