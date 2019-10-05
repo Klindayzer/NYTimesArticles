@@ -6,7 +6,7 @@
  *	Copyright 2019 Adham Alkhateeb. All rights reserved.
  */
 
-import UIKit
+import Foundation
 
 protocol NYResultable: Resultable {}
 

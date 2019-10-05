@@ -9,24 +9,25 @@
 import UIKit
 
 // MARK: - ArticleModel
-struct ArticleModel: Codable {
+struct ArticleModel: NYResultable {
     
     let status: String?
     let copyright: String?
     let numResults: Int
     let errors: [String]?
-    let results: [Result]?
+    let articles: [Article]?
     
     enum CodingKeys: String, CodingKey {
         
-        case status, copyright, errors, results
+        case status, copyright, errors
         case numResults = "num_results"
+        case articles = "results"
     }
 }
 
 // MARK: - Result
-struct Result: Codable {
-    
+struct Article: Codable {
+
     let id: Int
     let assetID: Int
     let views: Int
@@ -40,16 +41,16 @@ struct Result: Codable {
     let abstract: String?
     let publishedDate: String?
     let source: String?
-    let perFacet: String?
-    let desFacet: [String]?
-    let orgFacet: [String]?
-    let geoFacet: [String]?
+    let perFacet: QuantumValue?
+    let desFacet: QuantumValue?
+    let orgFacet: QuantumValue?
+    let geoFacet: QuantumValue?
     let uri: String?
     let media: [Media]?
     
     enum CodingKeys: String, CodingKey {
         
-        case url, column, section, byline, type, title, abstract, source, id, views, media, uri
+        case url, column, section, byline, type, title, abstract, source, id, views, uri, media
         case adxKeywords = "adx_keywords"
         case publishedDate = "published_date"
         case assetID = "asset_id"
@@ -91,4 +92,32 @@ enum Format: String, Codable {
     case mediumThreeByTwo210 = "mediumThreeByTwo210"
     case mediumThreeByTwo440 = "mediumThreeByTwo440"
     case standardThumbnail = "Standard Thumbnail"
+}
+
+enum QuantumValue: Codable {
+    
+    func encode(to encoder: Encoder) throws {
+        return
+    }
+    
+    case string(String), array([String])
+    
+    init(from decoder: Decoder) throws {
+        
+        if let array = try? decoder.singleValueContainer().decode([String].self) {
+            self = .array(array)
+            return
+        }
+        
+        if let string = try? decoder.singleValueContainer().decode(String.self) {
+            self = .string(string)
+            return
+        }
+        
+        throw QuantumError.missingValue
+    }
+    
+    enum QuantumError: Error {
+        case missingValue
+    }
 }

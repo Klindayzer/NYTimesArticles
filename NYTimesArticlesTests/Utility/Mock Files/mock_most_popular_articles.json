@@ -1,0 +1,72 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+  "num_results": 1309,
+  "results": [
+    {
+      "url": "https://www.nytimes.com/2019/10/04/us/politics/second-trump-whistleblower.html",
+      "adx_keywords": "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry;United States Politics and Government;Ethics and Official Misconduct;United States International Relations;Whistle-Blowers;Inspectors General;Impeachment;House Committee on Intelligence;National Security Council;Trump, Donald J;Zelensky, Volodymyr;Ukraine",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By MICHAEL S. SCHMIDT and ADAM GOLDMAN",
+      "type": "Article",
+      "title": "2nd Official Is Weighing Whether to Blow the Whistle on Trump’s Ukraine Dealings",
+      "abstract": "The official, a member of the intelligence community, was interviewed by the inspector general to corroborate the original whistle-blower’s account.",
+      "published_date": "2019-10-04",
+      "source": "The New York Times",
+      "id": 100000006751940,
+      "asset_id": 100000006751940,
+      "views": 1,
+      "des_facet": [
+        "TRUMP-UKRAINE WHISTLE-BLOWER COMPLAINT AND IMPEACHMENT INQUIRY",
+        "UNITED STATES POLITICS AND GOVERNMENT",
+        "ETHICS AND OFFICIAL MISCONDUCT",
+        "UNITED STATES INTERNATIONAL RELATIONS"
+      ],
+      "org_facet": [
+        "WHISTLE-BLOWERS",
+        "INSPECTORS GENERAL",
+        "IMPEACHMENT",
+        "HOUSE COMMITTEE ON INTELLIGENCE",
+        "NATIONAL SECURITY COUNCIL"
+      ],
+      "per_facet": [
+        "TRUMP, DONALD J",
+        "ZELENSKY, VOLODYMYR"
+      ],
+      "geo_facet": [
+        "UKRAINE"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump pressured the president of Ukraine to investigate the son of former Vice President Joseph R. Biden Jr. during a phone call.",
+          "copyright": "Anna Moneymaker/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/10/04/us/politics/04dc-second-sub/04dc-second-sub-thumbStandard-v3.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/10/04/us/politics/04dc-second-sub/04dc-second-sub-mediumThreeByTwo210-v3.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/10/04/us/politics/04dc-second-sub/04dc-second-sub-mediumThreeByTwo440-v3.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/5686f227-af59-5c2d-a5c5-9f17b000d6e8"
+    }
+  ]
+}

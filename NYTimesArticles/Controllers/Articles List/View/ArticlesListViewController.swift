@@ -13,6 +13,9 @@ class ArticlesListViewController: BaseController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        ArticlesViewModel().fetchArticles(page: .one) { (error) in
+            print("Error is \(error)")
+        }
     }
 }
 

@@ -32,8 +32,7 @@ struct NetworkManager: NetworkAdaptor {
     // MARK: - Exposed Methods
     func process<T: Resultable>(_ buildable: Buildable, type: T.Type, completion: @escaping (ServiceResult<T>) -> Void) {
         
-        guard isNetworkReachable.value else {
-            
+        guard NetworkReachability.shared.isReachable else {            
             completion(.failure(ServiceError(error: Keys.noInternetError.value, statusCode: 0)))
             return
         }

@@ -6,6 +6,7 @@
  *	Copyright 2019 Adham Alkhateeb. All rights reserved.
  */
 
+typealias ApiCallback = (String?) -> Void
 
 // MARK: - APIError
 struct APIErrors: Codable {
