@@ -10,6 +10,13 @@ import UIKit
 
 class ArticlesListViewController: BaseController {
     
+    // MARK: - Keys
+    fileprivate enum Keys: String, Localizable {
+        case apiErrorTitle = "api_error_title"
+        case ok = "okd"
+    }
+    
+    
     // MARK: - IBOutlet
     @IBOutlet fileprivate weak var tableView: UITableView!
     
@@ -44,6 +51,11 @@ class ArticlesListViewController: BaseController {
             
             defer {
                 self?.stopLoading()
+            }
+            
+            guard error == nil else {
+                self?.showAlert(title: Keys.apiErrorTitle.value, message: error ?? "", buttons: [ActionButton(title: Keys.ok.value, style: .default)])
+                return
             }
             
             self?.tableView.reloadData()
