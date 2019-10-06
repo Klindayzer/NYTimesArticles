@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>90DE79FA-DB6A-4FFC-9D16-AED14ECD0211</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>90DE79FA-DB6A-4FFC-9D16-AED14ECD0211.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NYTimesArticles project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NYTimesArticles</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project NYTimesArticles with scheme NYTimesArticles</string>
+			<key>timeStartedRecording</key>
+			<real>592018460.80140102</real>
+			<key>timeStoppedRecording</key>
+			<real>592018460.89917195</real>
+			<key>title</key>
+			<string>Cleaning project NYTimesArticles with scheme NYTimesArticles</string>
+			<key>uniqueIdentifier</key>
+			<string>90DE79FA-DB6A-4FFC-9D16-AED14ECD0211</string>
+		</dict>
+		<key>E4F3354C-4C2E-49DE-9441-5E77446AB8ED</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E4F3354C-4C2E-49DE-9441-5E77446AB8ED.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NYTimesArticles project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NYTimesArticles</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project NYTimesArticles with scheme NYTimesArticles</string>
+			<key>timeStartedRecording</key>
+			<real>592018460.89998496</real>
+			<key>timeStoppedRecording</key>
+			<real>592018461.62379301</real>
+			<key>title</key>
+			<string>Building project NYTimesArticles with scheme NYTimesArticles</string>
+			<key>uniqueIdentifier</key>
+			<string>E4F3354C-4C2E-49DE-9441-5E77446AB8ED</string>
+		</dict>
+		<key>E99C518C-29DB-40E9-B544-71718BB9700F</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E99C518C-29DB-40E9-B544-71718BB9700F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NYTimesArticles project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NYTimesArticles</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project NYTimesArticles with scheme NYTimesArticles</string>
+			<key>timeStartedRecording</key>
+			<real>592018461.624192</real>
+			<key>timeStoppedRecording</key>
+			<real>592018462.44057596</real>
+			<key>title</key>
+			<string>Testing project NYTimesArticles with scheme NYTimesArticles</string>
+			<key>uniqueIdentifier</key>
+			<string>E99C518C-29DB-40E9-B544-71718BB9700F</string>
+		</dict>
+		<key>EC2E3680-632A-45B1-9278-0B5B6F3AF97F</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EC2E3680-632A-45B1-9278-0B5B6F3AF97F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NYTimesArticles project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NYTimesArticles</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project NYTimesArticles with scheme NYTimesArticles</string>
+			<key>timeStartedRecording</key>
+			<real>592018345.69249904</real>
+			<key>timeStoppedRecording</key>
+			<real>592018346.52536094</real>
+			<key>title</key>
+			<string>Testing project NYTimesArticles with scheme NYTimesArticles</string>
+			<key>uniqueIdentifier</key>
+			<string>EC2E3680-632A-45B1-9278-0B5B6F3AF97F</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

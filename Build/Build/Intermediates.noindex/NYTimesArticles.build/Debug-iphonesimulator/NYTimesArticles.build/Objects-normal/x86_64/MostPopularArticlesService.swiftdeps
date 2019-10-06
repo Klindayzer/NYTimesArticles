@@ -1,0 +1,231 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Page"
+- "MostPopularArticlesService"
+provides-nominal:
+- "15NYTimesArticles4PageO"
+- "15NYTimesArticles011MostPopularB7ServiceV"
+provides-member:
+- ["15NYTimesArticles4PageO", ""]
+- ["15NYTimesArticles011MostPopularB7ServiceV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Buildable"
+- "CastingPrecedence"
+- "Environment"
+- "MostPopularArticlesService"
+- "Page"
+- "Params"
+- !private "PlistKey"
+- "String"
+- "URL"
+- "UnicodeScalarType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["Sa", "joined"]
+- !private ["SK", "joined"]
+- !private ["15NYTimesArticles9BuildableP", "Environment"]
+- !private ["15NYTimesArticles9BuildableP", "PlistKey"]
+- !private ["15NYTimesArticles9BuildableP", "URL"]
+- ["15NYTimesArticles9BuildableP", ""]
+- !private ["15NYTimesArticles9BuildableP", "baseUrl"]
+- ["15NYTimesArticles9BuildableP", "encoding"]
+- !private ["15NYTimesArticles9BuildableP", "endPoint"]
+- !private ["15NYTimesArticles9BuildableP", "environment"]
+- ["15NYTimesArticles9BuildableP", "headers"]
+- ["15NYTimesArticles9BuildableP", "httpTimeout"]
+- ["15NYTimesArticles9BuildableP", "method"]
+- !private ["15NYTimesArticles9BuildableP", "page"]
+- ["15NYTimesArticles9BuildableP", "params"]
+- ["15NYTimesArticles9BuildableP", "url"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["Sl", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["15NYTimesArticles11EnvironmentV", "configuration"]
+- !private ["15NYTimesArticles11EnvironmentV", "shared"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "base"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "mostPopular"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "value"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "base"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "joined"]
+- !private ["SH", "mostPopular"]
+- ["SH", "rawValue"]
+- !private ["SH", "value"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "Environment"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "Page"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "Params"]
+- !private ["15NYTimesArticles011MostPopularB7ServiceV", "PlistKey"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "String"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "URL"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "baseUrl"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "deinit"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "encoding"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "endPoint"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "environment"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "headers"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "httpTimeout"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "init"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "method"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "page"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "params"]
+- ["15NYTimesArticles011MostPopularB7ServiceV", "url"]
+- !private ["SM", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- ["15NYTimesArticles4PageO", "=="]
+- ["15NYTimesArticles4PageO", "RawValue"]
+- ["15NYTimesArticles4PageO", "String"]
+- ["15NYTimesArticles4PageO", "_Default_RawValue"]
+- !private ["15NYTimesArticles4PageO", "_findStringSwitchCase"]
+- ["15NYTimesArticles4PageO", "_rawHashValue"]
+- ["15NYTimesArticles4PageO", "deinit"]
+- ["15NYTimesArticles4PageO", "hash"]
+- ["15NYTimesArticles4PageO", "hashValue"]
+- ["15NYTimesArticles4PageO", "init"]
+- ["15NYTimesArticles4PageO", "one"]
+- ["15NYTimesArticles4PageO", "rawValue"]
+- ["15NYTimesArticles4PageO", "seven"]
+- ["15NYTimesArticles4PageO", "thirty"]
+- ["15NYTimesArticles4PageO", "value"]
+- !private ["15NYTimesArticles8PlistKeyO", "Tokens"]
+- !private ["15NYTimesArticles8PlistKeyO", "URL"]
+- !private ["15NYTimesArticles9PlistableP", "base"]
+- !private ["15NYTimesArticles9PlistableP", "mostPopular"]
+- !private ["Sk", "joined"]
+- !private ["Sm", "joined"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["SY", "value"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "joined"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["15NYTimesArticles8PlistKeyO6TokensO", "deinit"]
+- !private ["15NYTimesArticles8PlistKeyO6TokensO", "mostPopular"]
+- !private ["15NYTimesArticles8PlistKeyO3URLO", "base"]
+- !private ["15NYTimesArticles8PlistKeyO3URLO", "deinit"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "15NYTimesArticles9BuildableP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "15NYTimesArticles11EnvironmentV"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "15NYTimesArticles011MostPopularB7ServiceV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "15NYTimesArticles4PageO"
+- !private "15NYTimesArticles8PlistKeyO"
+- !private "15NYTimesArticles9PlistableP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "15NYTimesArticles8PlistKeyO6TokensO"
+- !private "15NYTimesArticles8PlistKeyO3URLO"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4e2f06bba9f2f5fb7a63fc48ecce7c79"

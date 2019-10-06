@@ -1,0 +1,107 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Plistable"
+- "PlistKey"
+provides-nominal:
+- "15NYTimesArticles9PlistableP"
+- "15NYTimesArticles8PlistKeyO"
+- "15NYTimesArticles8PlistKeyO3URLO"
+- "15NYTimesArticles8PlistKeyO6TokensO"
+provides-member:
+- ["15NYTimesArticles9PlistableP", ""]
+- ["15NYTimesArticles8PlistKeyO", ""]
+- ["15NYTimesArticles8PlistKeyO3URLO", ""]
+- ["15NYTimesArticles8PlistKeyO6TokensO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "PlistKey"
+- "Plistable"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "base"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "mostPopular"]
+- ["SQ", "value"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "base"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "mostPopular"]
+- ["SH", "value"]
+- !private ["s6HasherV", "combine"]
+- ["15NYTimesArticles8PlistKeyO", "Plistable"]
+- ["15NYTimesArticles8PlistKeyO", "String"]
+- ["15NYTimesArticles8PlistKeyO", "Tokens"]
+- ["15NYTimesArticles8PlistKeyO", "URL"]
+- ["15NYTimesArticles9PlistableP", "=="]
+- ["15NYTimesArticles9PlistableP", "String"]
+- ["15NYTimesArticles9PlistableP", ""]
+- ["15NYTimesArticles9PlistableP", "_rawHashValue"]
+- ["15NYTimesArticles9PlistableP", "base"]
+- ["15NYTimesArticles9PlistableP", "hash"]
+- ["15NYTimesArticles9PlistableP", "hashValue"]
+- ["15NYTimesArticles9PlistableP", "mostPopular"]
+- ["15NYTimesArticles9PlistableP", "value"]
+- ["15NYTimesArticles8PlistKeyO6TokensO", "=="]
+- ["15NYTimesArticles8PlistKeyO6TokensO", "String"]
+- ["15NYTimesArticles8PlistKeyO6TokensO", "__derived_enum_equals"]
+- ["15NYTimesArticles8PlistKeyO6TokensO", "_rawHashValue"]
+- ["15NYTimesArticles8PlistKeyO6TokensO", "deinit"]
+- ["15NYTimesArticles8PlistKeyO6TokensO", "hash"]
+- ["15NYTimesArticles8PlistKeyO6TokensO", "hashValue"]
+- ["15NYTimesArticles8PlistKeyO6TokensO", "mostPopular"]
+- ["15NYTimesArticles8PlistKeyO6TokensO", "value"]
+- ["15NYTimesArticles8PlistKeyO3URLO", "=="]
+- ["15NYTimesArticles8PlistKeyO3URLO", "String"]
+- ["15NYTimesArticles8PlistKeyO3URLO", "__derived_enum_equals"]
+- ["15NYTimesArticles8PlistKeyO3URLO", "_rawHashValue"]
+- ["15NYTimesArticles8PlistKeyO3URLO", "base"]
+- ["15NYTimesArticles8PlistKeyO3URLO", "deinit"]
+- ["15NYTimesArticles8PlistKeyO3URLO", "hash"]
+- ["15NYTimesArticles8PlistKeyO3URLO", "hashValue"]
+- ["15NYTimesArticles8PlistKeyO3URLO", "value"]
+depends-nominal:
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "15NYTimesArticles8PlistKeyO"
+- "15NYTimesArticles9PlistableP"
+- "15NYTimesArticles8PlistKeyO6TokensO"
+- "15NYTimesArticles8PlistKeyO3URLO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6e37744a4d420da33df3d6674a343fcc"

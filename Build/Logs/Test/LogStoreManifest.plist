@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>BEA48B44-D180-4E5B-A611-F59A55FBD377</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>90DE79FA-DB6A-4FFC-9D16-AED14ECD0211</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Run-NYTimesArticles-2019.10.06_05-34-20-+0400.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasCoverageData</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NYTimesArticles project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NYTimesArticles</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NYTimesArticles</string>
+			<key>timeStartedRecording</key>
+			<real>592018460.80304301</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run NYTimesArticles</string>
+			<key>uniqueIdentifier</key>
+			<string>BEA48B44-D180-4E5B-A611-F59A55FBD377</string>
+		</dict>
+		<key>F439241F-1115-443C-88C9-27932EECD012</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>BFAC2997-2641-4CBE-9902-A729A6A1729D</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Run-NYTimesArticles-2019.10.06_05-32-24-+0400.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasCoverageData</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NYTimesArticles project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NYTimesArticles</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NYTimesArticles</string>
+			<key>timeStartedRecording</key>
+			<real>592018344.89062202</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run NYTimesArticles</string>
+			<key>uniqueIdentifier</key>
+			<string>F439241F-1115-443C-88C9-27932EECD012</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

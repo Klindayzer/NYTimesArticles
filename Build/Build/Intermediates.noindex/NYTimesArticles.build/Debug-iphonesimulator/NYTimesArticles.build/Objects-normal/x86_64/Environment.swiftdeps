@@ -1,0 +1,345 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Environment"
+provides-nominal:
+- "15NYTimesArticles11EnvironmentV"
+provides-member:
+- ["15NYTimesArticles11EnvironmentV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "Bundle"
+- "CastingPrecedence"
+- !private "Data"
+- "Environment"
+- "Plistable"
+- !private "PropertyListSerialization"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "isDebug"
+- !private "print"
+depends-member:
+- !private ["SK", "fetalErrorForPlistFile"]
+- !private ["SK", "init"]
+- !private ["SK", "plistKey"]
+- !private ["SK", "productionSettingsFile"]
+- !private ["SK", "sandboxSettingsFile"]
+- ["So8NSBundleC", "AnyObject"]
+- !private ["So8NSBundleC", "Bundle"]
+- !private ["So8NSBundleC", "Data"]
+- !private ["So8NSBundleC", "PropertyListSerialization"]
+- ["So8NSBundleC", "String"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "parsePlist"]
+- !private ["So8NSBundleC", "print"]
+- !private ["So8NSBundleC", "url"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "Data"]
+- !private ["s7CVarArgP", "PropertyListSerialization"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "fetalErrorForPlistFile"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "parsePlist"]
+- !private ["s7CVarArgP", "plistKey"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "productionSettingsFile"]
+- !private ["s7CVarArgP", "propertyList"]
+- !private ["s7CVarArgP", "sandboxSettingsFile"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "url"]
+- !private ["Sl", "fetalErrorForPlistFile"]
+- !private ["Sl", "init"]
+- !private ["Sl", "plistKey"]
+- !private ["Sl", "productionSettingsFile"]
+- !private ["Sl", "sandboxSettingsFile"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "fetalErrorForPlistFile"]
+- !private ["SL", "plistKey"]
+- !private ["SL", "productionSettingsFile"]
+- !private ["SL", "sandboxSettingsFile"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "PropertyListSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "fetalErrorForPlistFile"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "parsePlist"]
+- !private ["s28CustomDebugStringConvertibleP", "plistKey"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "productionSettingsFile"]
+- !private ["s28CustomDebugStringConvertibleP", "propertyList"]
+- !private ["s28CustomDebugStringConvertibleP", "sandboxSettingsFile"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s17CustomReflectableP", "fetalErrorForPlistFile"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "plistKey"]
+- !private ["s17CustomReflectableP", "productionSettingsFile"]
+- !private ["s17CustomReflectableP", "sandboxSettingsFile"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "PropertyListSerialization"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "fetalErrorForPlistFile"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "parsePlist"]
+- !private ["s23CustomStringConvertibleP", "plistKey"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "productionSettingsFile"]
+- !private ["s23CustomStringConvertibleP", "propertyList"]
+- !private ["s23CustomStringConvertibleP", "sandboxSettingsFile"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "fetalErrorForPlistFile"]
+- !private ["Se", "init"]
+- !private ["Se", "plistKey"]
+- !private ["Se", "productionSettingsFile"]
+- !private ["Se", "sandboxSettingsFile"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "fetalErrorForPlistFile"]
+- !private ["SE", "init"]
+- !private ["SE", "plistKey"]
+- !private ["SE", "productionSettingsFile"]
+- !private ["SE", "sandboxSettingsFile"]
+- !private ["SE", "subscript"]
+- ["15NYTimesArticles11EnvironmentV", "Bool"]
+- !private ["15NYTimesArticles11EnvironmentV", "Bundle"]
+- ["15NYTimesArticles11EnvironmentV", "Environment"]
+- ["15NYTimesArticles11EnvironmentV", "Plistable"]
+- ["15NYTimesArticles11EnvironmentV", "String"]
+- ["15NYTimesArticles11EnvironmentV", "configuration"]
+- ["15NYTimesArticles11EnvironmentV", "init"]
+- !private ["15NYTimesArticles11EnvironmentV", "isDebug"]
+- !private ["15NYTimesArticles11EnvironmentV", "settingDict"]
+- ["15NYTimesArticles11EnvironmentV", "shared"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "Data"]
+- !private ["SQ", "PropertyListSerialization"]
+- !private ["SQ", "String"]
+- !private ["SQ", "fetalErrorForPlistFile"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "parsePlist"]
+- !private ["SQ", "plistKey"]
+- !private ["SQ", "print"]
+- !private ["SQ", "productionSettingsFile"]
+- !private ["SQ", "propertyList"]
+- !private ["SQ", "sandboxSettingsFile"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "url"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "fetalErrorForPlistFile"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "plistKey"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "productionSettingsFile"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "sandboxSettingsFile"]
+- !private ["s23ExpressibleByNilLiteralP", "plistKey"]
+- !private ["s32ExpressibleByStringInterpolationP", "fetalErrorForPlistFile"]
+- !private ["s32ExpressibleByStringInterpolationP", "plistKey"]
+- !private ["s32ExpressibleByStringInterpolationP", "productionSettingsFile"]
+- !private ["s32ExpressibleByStringInterpolationP", "sandboxSettingsFile"]
+- !private ["s26ExpressibleByStringLiteralP", "fetalErrorForPlistFile"]
+- !private ["s26ExpressibleByStringLiteralP", "plistKey"]
+- !private ["s26ExpressibleByStringLiteralP", "productionSettingsFile"]
+- !private ["s26ExpressibleByStringLiteralP", "sandboxSettingsFile"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "fetalErrorForPlistFile"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "plistKey"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "productionSettingsFile"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "sandboxSettingsFile"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "Data"]
+- !private ["SH", "PropertyListSerialization"]
+- !private ["SH", "String"]
+- !private ["SH", "fetalErrorForPlistFile"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "parsePlist"]
+- !private ["SH", "plistKey"]
+- !private ["SH", "print"]
+- !private ["SH", "productionSettingsFile"]
+- !private ["SH", "propertyList"]
+- !private ["SH", "sandboxSettingsFile"]
+- !private ["SH", "subscript"]
+- !private ["SH", "url"]
+- !private ["s25LosslessStringConvertibleP", "fetalErrorForPlistFile"]
+- !private ["s25LosslessStringConvertibleP", "plistKey"]
+- !private ["s25LosslessStringConvertibleP", "productionSettingsFile"]
+- !private ["s25LosslessStringConvertibleP", "sandboxSettingsFile"]
+- !private ["s10MirrorPathP", "fetalErrorForPlistFile"]
+- !private ["s10MirrorPathP", "plistKey"]
+- !private ["s10MirrorPathP", "productionSettingsFile"]
+- !private ["s10MirrorPathP", "sandboxSettingsFile"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "PropertyListSerialization"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "parsePlist"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "propertyList"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "Data"]
+- !private ["So8NSObjectP", "PropertyListSerialization"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "parsePlist"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "propertyList"]
+- !private ["So8NSObjectP", "url"]
+- !private ["Sq", "plistKey"]
+- !private ["15NYTimesArticles9PlistableP", "value"]
+- !private ["So27NSPropertyListSerializationC", "propertyList"]
+- !private ["Sk", "init"]
+- !private ["Sm", "fetalErrorForPlistFile"]
+- !private ["Sm", "init"]
+- !private ["Sm", "plistKey"]
+- !private ["Sm", "productionSettingsFile"]
+- !private ["Sm", "sandboxSettingsFile"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "fetalErrorForPlistFile"]
+- !private ["ST", "init"]
+- !private ["ST", "plistKey"]
+- !private ["ST", "productionSettingsFile"]
+- !private ["ST", "sandboxSettingsFile"]
+- !private ["ST", "subscript"]
+- !private ["SS", "fetalErrorForPlistFile"]
+- !private ["SS", "plistKey"]
+- !private ["SS", "productionSettingsFile"]
+- !private ["SS", "sandboxSettingsFile"]
+- !private ["Sy", "fetalErrorForPlistFile"]
+- !private ["Sy", "plistKey"]
+- !private ["Sy", "productionSettingsFile"]
+- !private ["Sy", "sandboxSettingsFile"]
+- !private ["s16TextOutputStreamP", "fetalErrorForPlistFile"]
+- !private ["s16TextOutputStreamP", "plistKey"]
+- !private ["s16TextOutputStreamP", "productionSettingsFile"]
+- !private ["s16TextOutputStreamP", "sandboxSettingsFile"]
+- !private ["s20TextOutputStreamableP", "fetalErrorForPlistFile"]
+- !private ["s20TextOutputStreamableP", "plistKey"]
+- !private ["s20TextOutputStreamableP", "productionSettingsFile"]
+- !private ["s20TextOutputStreamableP", "sandboxSettingsFile"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "fetalErrorForPlistFile"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "plistKey"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "productionSettingsFile"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "sandboxSettingsFile"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "fetalErrorForPlistFile"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "plistKey"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "productionSettingsFile"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "sandboxSettingsFile"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "fetalErrorForPlistFile"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "plistKey"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "productionSettingsFile"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "sandboxSettingsFile"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "fetalErrorForPlistFile"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "plistKey"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "productionSettingsFile"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "sandboxSettingsFile"]
+- !private ["s19_HasContiguousBytesP", "fetalErrorForPlistFile"]
+- !private ["s19_HasContiguousBytesP", "plistKey"]
+- !private ["s19_HasContiguousBytesP", "productionSettingsFile"]
+- !private ["s19_HasContiguousBytesP", "sandboxSettingsFile"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PropertyListSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parsePlist"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "propertyList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "fetalErrorForPlistFile"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "plistKey"]
+- !private ["s21_ObjectiveCBridgeableP", "productionSettingsFile"]
+- !private ["s21_ObjectiveCBridgeableP", "sandboxSettingsFile"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "SK"
+- "So8NSBundleC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "15NYTimesArticles11EnvironmentV"
+- !private "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sq"
+- !private "15NYTimesArticles9PlistableP"
+- !private "So27NSPropertyListSerializationC"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e43557fc1d161101202b6fb594b24c90"

@@ -1,0 +1,237 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Keys"
+- "NetworkAdaptor"
+- "NetworkManager"
+provides-nominal:
+- "15NYTimesArticles4KeysO"
+- "15NYTimesArticles14NetworkAdaptorP"
+- "15NYTimesArticles14NetworkManagerV"
+provides-member:
+- ["15NYTimesArticles4KeysO", ""]
+- ["15NYTimesArticles14NetworkAdaptorP", ""]
+- ["15NYTimesArticles14NetworkManagerV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Buildable"
+- !private "DispatchQueue"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Keys"
+- "Localizable"
+- "NetworkAdaptor"
+- "NetworkEngine"
+- "NetworkManager"
+- !private "NetworkReachability"
+- "Resultable"
+- !private "ServiceError"
+- "ServiceResult"
+- "SessionManagerType"
+- "String"
+- "StringLiteralType"
+- "Void"
+- !private "_findStringSwitchCase"
+- !private "isDebug"
+- !private "~="
+depends-member:
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "async"]
+- !private ["SQ", "background"]
+- !private ["SQ", "default"]
+- !private ["SQ", "global"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "noInternetError"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "sessionManager"]
+- ["SQ", "value"]
+- !private ["s5ErrorP", "init"]
+- !private ["15NYTimesArticles9FetchableP", "init"]
+- !private ["15NYTimesArticles9FetchableP", "request"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "async"]
+- !private ["SH", "background"]
+- !private ["SH", "default"]
+- !private ["SH", "global"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "noInternetError"]
+- ["SH", "rawValue"]
+- !private ["SH", "sessionManager"]
+- ["SH", "value"]
+- ["15NYTimesArticles4KeysO", "=="]
+- ["15NYTimesArticles4KeysO", "RawValue"]
+- ["15NYTimesArticles4KeysO", "_Default_RawValue"]
+- !private ["15NYTimesArticles4KeysO", "_findStringSwitchCase"]
+- ["15NYTimesArticles4KeysO", "_rawHashValue"]
+- ["15NYTimesArticles4KeysO", "deinit"]
+- ["15NYTimesArticles4KeysO", "hash"]
+- ["15NYTimesArticles4KeysO", "hashValue"]
+- ["15NYTimesArticles4KeysO", "init"]
+- ["15NYTimesArticles4KeysO", "noInternetAlertMessage"]
+- ["15NYTimesArticles4KeysO", "noInternetError"]
+- ["15NYTimesArticles4KeysO", "rawValue"]
+- ["15NYTimesArticles4KeysO", "value"]
+- ["15NYTimesArticles11LocalizableP", "=="]
+- ["15NYTimesArticles11LocalizableP", "RawValue"]
+- ["15NYTimesArticles11LocalizableP", ""]
+- ["15NYTimesArticles11LocalizableP", "_Default_RawValue"]
+- !private ["15NYTimesArticles11LocalizableP", "_findStringSwitchCase"]
+- ["15NYTimesArticles11LocalizableP", "_rawHashValue"]
+- ["15NYTimesArticles11LocalizableP", "hash"]
+- ["15NYTimesArticles11LocalizableP", "hashValue"]
+- ["15NYTimesArticles11LocalizableP", "init"]
+- !private ["15NYTimesArticles11LocalizableP", "noInternetError"]
+- ["15NYTimesArticles11LocalizableP", "rawValue"]
+- ["15NYTimesArticles11LocalizableP", "value"]
+- !private ["15NYTimesArticles6LoggerP", "init"]
+- !private ["15NYTimesArticles6LoggerP", "request"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "global"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "global"]
+- !private ["So8NSObjectP", "main"]
+- ["15NYTimesArticles14NetworkAdaptorP", "Buildable"]
+- !private ["15NYTimesArticles14NetworkAdaptorP", "DispatchQueue"]
+- !private ["15NYTimesArticles14NetworkAdaptorP", "Keys"]
+- !private ["15NYTimesArticles14NetworkAdaptorP", "NetworkEngine"]
+- !private ["15NYTimesArticles14NetworkAdaptorP", "NetworkReachability"]
+- ["15NYTimesArticles14NetworkAdaptorP", "Resultable"]
+- !private ["15NYTimesArticles14NetworkAdaptorP", "ServiceError"]
+- ["15NYTimesArticles14NetworkAdaptorP", "ServiceResult"]
+- ["15NYTimesArticles14NetworkAdaptorP", "Void"]
+- ["15NYTimesArticles14NetworkAdaptorP", ""]
+- !private ["15NYTimesArticles14NetworkAdaptorP", "engine"]
+- !private ["15NYTimesArticles14NetworkAdaptorP", "fetch"]
+- !private ["15NYTimesArticles14NetworkAdaptorP", "handle"]
+- !private ["15NYTimesArticles14NetworkAdaptorP", "isDebug"]
+- ["15NYTimesArticles14NetworkAdaptorP", "process"]
+- ["15NYTimesArticles13NetworkEngineV", "init"]
+- !private ["15NYTimesArticles13NetworkEngineV", "request"]
+- ["15NYTimesArticles14NetworkManagerV", "Buildable"]
+- !private ["15NYTimesArticles14NetworkManagerV", "DispatchQueue"]
+- !private ["15NYTimesArticles14NetworkManagerV", "Keys"]
+- ["15NYTimesArticles14NetworkManagerV", "NetworkEngine"]
+- !private ["15NYTimesArticles14NetworkManagerV", "NetworkReachability"]
+- ["15NYTimesArticles14NetworkManagerV", "Resultable"]
+- !private ["15NYTimesArticles14NetworkManagerV", "ServiceError"]
+- ["15NYTimesArticles14NetworkManagerV", "ServiceResult"]
+- ["15NYTimesArticles14NetworkManagerV", "SessionManagerType"]
+- ["15NYTimesArticles14NetworkManagerV", "Void"]
+- ["15NYTimesArticles14NetworkManagerV", "deinit"]
+- ["15NYTimesArticles14NetworkManagerV", "engine"]
+- !private ["15NYTimesArticles14NetworkManagerV", "fetch"]
+- !private ["15NYTimesArticles14NetworkManagerV", "handle"]
+- ["15NYTimesArticles14NetworkManagerV", "init"]
+- !private ["15NYTimesArticles14NetworkManagerV", "isDebug"]
+- ["15NYTimesArticles14NetworkManagerV", "process"]
+- !private ["15NYTimesArticles19NetworkReachabilityC", "isReachable"]
+- !private ["15NYTimesArticles19NetworkReachabilityC", "shared"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "main"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "background"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "noInternetError"]
+- ["SY", "rawValue"]
+- ["SY", "value"]
+- !private ["15NYTimesArticles12ServiceErrorV", "init"]
+- !private ["15NYTimesArticles13ServiceResultO", "failure"]
+- !private ["15NYTimesArticles18SessionManagerTypeO", "default"]
+- !private ["15NYTimesArticles18SessionManagerTypeO", "sessionManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "SQ"
+- !private "s5ErrorP"
+- !private "15NYTimesArticles9FetchableP"
+- "SH"
+- "15NYTimesArticles4KeysO"
+- "15NYTimesArticles11LocalizableP"
+- !private "15NYTimesArticles6LoggerP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "15NYTimesArticles14NetworkAdaptorP"
+- "15NYTimesArticles13NetworkEngineV"
+- "15NYTimesArticles14NetworkManagerV"
+- !private "15NYTimesArticles19NetworkReachabilityC"
+- !private "So9OS_objectC"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- "SY"
+- !private "15NYTimesArticles12ServiceErrorV"
+- !private "15NYTimesArticles13ServiceResultO"
+- !private "15NYTimesArticles18SessionManagerTypeO"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4dd030e58e261418e4000f58d010946a"
